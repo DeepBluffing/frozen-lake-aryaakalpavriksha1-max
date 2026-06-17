@@ -49,7 +49,7 @@ def train_agent():
             
             state = next_state
             
-            state = next_state
+            
             
         # Decay exploration rate
         epsilon = max(min_epsilon, epsilon * epsilon_decay)
