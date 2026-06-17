@@ -6,8 +6,8 @@ def train_agent():
     env = gym.make("FrozenLake-v1", is_slippery=False)
     
     # Hyperparameters (TRY TWEAKING THEM!!!)
-    num_episodes = 5000
-    alpha = 0.5       # Learning rate
+    num_episodes = 10000
+    alpha = 0.8       # Learning rate
     gamma = 0.95      # Discount factor
     epsilon = 1.0     # Exploration rate
     min_epsilon = 0.01
